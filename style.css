@@ -1,0 +1,48 @@
+
+
+li{
+	display:inline-block;
+	margin: 15px 0;
+	padding: 0 20px;
+
+	
+}
+
+
+nav{
+
+	background-color: #222931;
+	max-width: 950px;
+	margin: 0 auto;
+	position: relative;
+	top:40px;
+
+}
+
+a{
+	color: white;
+	margin: 10px;
+	text-decoration:none;
+}
+a:hover{
+	background-color: #ffe718;
+  	padding: 15px 30px; 
+}
+
+#logo{
+	position: relative;
+	top: 45px;
+	left: 19%
+	
+}
+
+.header{
+	max-width: 100%;
+}
+	
+.banners{
+	max-width: 950px;
+	position: relative;
+	top: 30px;
+	left: 200px;
+}
