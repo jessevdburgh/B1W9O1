@@ -1,6 +1,8 @@
+body{
+	max-width: 1920px;
+}
 
-
-li{
+nav>ul>li{
 	display:inline-block;
 	margin: 15px 0;
 	padding: 0 20px;
@@ -21,12 +23,10 @@ nav{
 
 a{
 	color: white;
-	margin: 10px;
 	text-decoration:none;
 }
 a:hover{
 	background-color: #ffe718;
-  	padding: 15px 30px; 
 }
 
 #logo{
@@ -40,9 +40,119 @@ a:hover{
 	max-width: 100%;
 }
 	
-.banners{
-	max-width: 950px;
+
+#banner1{
+margin: 40px 20px 30px 200px;
+
+}
+#banner1:hover{
+
+
+}
+
+#banner2{
+margin: 40px 20px 30px 20px;
+}
+
+#banner3{
+margin: 40px 100px 30px 20px;
+}
+
+
+h1{
+	display: inline-block;
+	margin-left: 100px;
 	position: relative;
-	top: 30px;
-	left: 200px;
+	top: 35px;
+}
+
+button{
+	background-color: #222931;
+	border: none;
+	color: white;
+	padding: 10px 30px 10px 30px;
+	position: relative;
+	left: 1100px;
+	bottom: 85px;
+
+}
+
+h3{
+	position: relative;
+	left: 450px;
+	bottom: 30px;
+}
+
+
+.yellowbar{
+	background-color: #ffe718;
+	height: 150px;
+}
+.uitklap-menu{
+	display: none;
+	list-style-type: none;
+	padding: 0;
+	position: absolute;
+	top: 18px;
+	left:0;
+}
+
+.uitklap-menu>li{
+	border: 1px none;
+	width: 120px;
+	background-color: #222931;
+
+}
+.uitklap-menu>li:hover{
+	background-color: #ffe718 ;
+}
+
+.uitklap-item:hover > .uitklap-menu{
+	display: block;
+
+}
+
+.uitklap-item{
+	position: relative;
+
+}
+
+
+}
+
+img{
+	max-width: 100%;
+}
+
+#footer{
+	margin-top: 30px;
+}
+
+
+.footer1{
+	background-color: #ffe718 ;
+	max-width: 300px;
+	display: inline-block;
+	text-align: center
+}
+
+.footer2{
+	background-color: #ffe718 ;
+	max-width: 300px;
+	display: inline-block;
+	text-align: center
+}
+
+.footer3{
+	background-color: #ffe718 ;
+	max-width: 300px;
+	display: inline-block;
+	text-align: center
+	max-height:100px;
+
+}
+
+.footer3>img{
+	max-width: 70px;
+	
 }
