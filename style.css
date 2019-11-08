@@ -41,21 +41,27 @@ a:hover{
 }
 	
 
-#banner1{
+.banner1{
 margin: 40px 20px 30px 200px;
-
-}
-#banner1:hover{
-
-
 }
 
-#banner2{
+.banner1:hover{
+	filter: brightness(40%);
+}
+
+.banner2{
 margin: 40px 20px 30px 20px;
 }
+.banner2:hover{
+	filter: brightness(40%);
+}
 
-#banner3{
+.banner3{
 margin: 40px 100px 30px 20px;
+}
+.banner3:hover{
+	filter: brightness(40%);
+
 }
 
 
@@ -67,14 +73,18 @@ h1{
 }
 
 button{
-	background-color: #222931;
+	background-color: white;
 	border: none;
-	color: white;
+	color: black;
 	padding: 10px 30px 10px 30px;
 	position: relative;
 	left: 1100px;
 	bottom: 85px;
 
+}
+button:hover{
+	background-color: #222931;
+	color: white;
 }
 
 h3{
@@ -126,33 +136,67 @@ img{
 
 #footer{
 	margin-top: 30px;
+	max-width: 100%;
 }
 
 
+
+.fa-angle-down{
+	color: white;
+}
+
+.fa-handshake{
+    background-color: yellow;
+    position: relative;
+    bottom:100px;
+    left:100px;
+    padding:30px;
+    width: 300px;
+
+}
+
+
+.fa-toolbox{
+        background-color: yellow;
+    position: relative;
+    top: 50px;
+    left:100px;
+    padding:30px;
+    width: 300px;
+}
+
+.fa-envelope{
+background-color: yellow;
+    position: relative;
+    top:120px;
+    left:150px;
+    padding:30px;
+    width: 300px;
+
+}
+
 .footer1{
-	background-color: #ffe718 ;
-	max-width: 300px;
-	display: inline-block;
-	text-align: center
+    position: relative;
+    bottom:320px;
+    left:200px;
+    padding:30px;
+    
+
 }
 
 .footer2{
-	background-color: #ffe718 ;
-	max-width: 300px;
-	display: inline-block;
-	text-align: center
+        position: relative;
+    bottom:250px;
+    left:400px;
+    padding:30px;
+    margin:10px;
 }
 
 .footer3{
-	background-color: #ffe718 ;
-	max-width: 300px;
-	display: inline-block;
-	text-align: center
-	max-height:100px;
-
+        position: relative;
+    bottom:70px;
+    left:350px;
+    padding:30px;
+    margin:10px;
 }
 
-.footer3>img{
-	max-width: 70px;
-	
-}
